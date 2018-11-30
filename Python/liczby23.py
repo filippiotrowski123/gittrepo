@@ -14,7 +14,7 @@ def liczby2():
             if i != j:
                 print("{}{}".format(i, j))
                 licznik = licznik + 1
-    print("liczb 2 syfrowych",licznik)
+    print("liczb 2 syfrowych",licznisk)
 
 def main(args):
     liczby2()
