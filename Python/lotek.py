@@ -4,37 +4,38 @@
 #  lotek.py
 import random
 
+
+
+
 def main(args):
     ileliczb = 3
     liczby = []
-    #for i in range(3):
-    
+    # for i in range(3):
     while ileliczb:
         liczba = random.randint(0, 10)
-        if not licby.count(liczby):
+        if not liczby.count(liczba):
             liczby.append(liczba)
-            ileliczb -= 1
-    print(liczby)
+            ileliczb -= 1  # dekrementacja o 1
     
+    # print(liczby)
     
     ileliczb = len(liczby)
-    type = set()
+    typy = set()
     while ileliczb:
-        typ = int(input("Podaj typ:"))
-        
+        typ = int(input('Podaj typ: '))
         if typ not in typy:
-            typy.add(typy)
-            ileliczb = 1
-    print:(typy)
-    trefione = set(liczby) & typy
+            typy.add(typ)
+            ileliczb -= 1  # dekrementacja o 1
     
-    if tarafione:
-        print("Trefione", trafione)
+    # print(typy)
     
+    trafione = set(liczby) & typy
+    if trafione:
+        print("Trafione: ", trafione)
     else:
-        print("spróbuj jeszcze raz!")
+        print("Spróbuj jeszcze raz!")
     
-    print(typy)
+    
 def main(args):
     return 0
 
