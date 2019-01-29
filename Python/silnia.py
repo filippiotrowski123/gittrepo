@@ -7,8 +7,12 @@
 # n! = n * (n-1)! dla n >= 1
 # n! = 1 * ... * n
 # 4! = 1* 2 *3 * 4
-
-def main(args):
+def silnia_it(n):
+    wynik = 1
+    for i in range(1, n + 1):
+        wynik = wynik * i
+    return wynik
+def main(args):4
     n = int(input('Podaj liczbe naturalną:'))
     wynik = 1
     for i in range(1, n + 1):
