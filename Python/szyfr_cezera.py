@@ -16,8 +16,10 @@ def szyfruj_1(tekst, klucz):
     szyfrogram = ''
     for znak in tekst:
         ascii = ord(znak)
-        if ascii + klucz >122:
+        if ascii + klucz >122: and ascii != 32:
             znak = chr(ascii + klucz - 26)
+        elif ascii = chr(ascii = klucz)
+        
             
         else:
             znak = chr(ascii + klucz)
@@ -28,7 +30,7 @@ def szyfruj_1(tekst, klucz):
 
 
 def main(args):
-    tekst = input('Podaj tekst: ')
+    tekst = input('Podaj tekst: ').lower()
     klucz = pobierz_klucz()
     szyfruj_1(tekst, klucz)
     return 0
