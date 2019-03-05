@@ -38,7 +38,12 @@ def main(args):
         # ~print('To palindrom!')
     # else:
         # ~print('To nie jest palindrom')
-    print (teksty)
+    for i in range (len(teksty)):
+        if czy_palindrom(teksty[i]):
+            ile += 1
+        else:
+            continue
+    print (ile)
     return 0
   
 if __name__ == '__main__':
