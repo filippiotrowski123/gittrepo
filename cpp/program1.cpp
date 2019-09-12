@@ -33,5 +33,5 @@ int main(int argc, char **argv)
     cin >> liczba1;
     cout << "Podałeś: " << liczba1; 
 	return 0;
-}
+}34
 
