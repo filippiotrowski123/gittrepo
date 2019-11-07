@@ -29,11 +29,7 @@ int main(int argc, char **argv)
     cout << endl;
 
     
-    int x=1;
-    string tekst;
-    cout<<"Wprowadz tekst:\n";
-    getline(cin,tekst);
- 
+
     int l=tekst.length();
  
     for (int i=0;i<l;i++)
