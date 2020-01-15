@@ -1,0 +1,30 @@
+
+Do lokalnego wykonwania skryptów PHP potrzebny jest "Interpreter"
+Aby wyprowadzic dane tekstowe używamy "print() echo() echo"
+Po stronie serwera WW kod PHP ".php"
+Kod PHP powinien byc ujety w znacznik <?php>
+Dane które zmianija baze danych przesyłanych z fowrmularza "POST"
+Po strone serwere w krypcie PHP z formularza dostępne sa "POST"
+Jeżeli chcemy wyszukać w serwisie WWW "GET"
+5 strona
+Walidacia danych polaga na "uzywaniu odpowiednich ,sprawdzaiu po srtronie serwera"
+Java Script mazna uzyc do walidaci danych "po stronie serwera po stronie klienrta 
+Sprawdzanie poprawności loginu hasła "walidacji autentykacji" 
+6 strona
+DO sprawdzanie czy nie NULL "isset()"
+"czy w tebali istnieje podany klucz"
+empty()
+Zaznacz funkcie php które sprawdzaja poprawność "strlen httmlspecielharc trim
+strona 6
+Zmiiene PHP "śą tworzon ew momencie pierwzego przypisania"
+"$($zmiena)='wartosc'"
+"zmiena; $zmienna" i z tab
+
+$_POST['kod']
+nazwa instrukci php "foreach"
+KLASA::$dane
+
+
+
+
+
