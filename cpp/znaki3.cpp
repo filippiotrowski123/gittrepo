@@ -40,8 +40,8 @@ void dekoduj(int tabzn[], int rozmiar){
 
 int main(int argc, char **argv)
 {
-	int rozmiar = 13;
-	char napis[rozmiar];
+        int rozmiar = 13;
+        char napis[rozmiar];
 	int szyfr[rozmiar] = {116, 119, 111, 106, 115, 116, 97, 114, 121, 115, 0};
 	koduj(napis, rozmiar);
 	cout << endl;
