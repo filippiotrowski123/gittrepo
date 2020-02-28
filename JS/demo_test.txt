@@ -1,0 +1,4 @@
+<p>
+<string>To jest strona czy coś takiego</string>
+
+</p>
